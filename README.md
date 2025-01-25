@@ -20,7 +20,7 @@ Fetch movie titles for the following genres:
 
 Returns a list of top movies based on the chosen genre.
 
-
+---------------------------------------------------------------------------------
 Prerequisites
 
 To run this script, ensure you have the following installed:
@@ -28,12 +28,14 @@ To run this script, ensure you have the following installed:
 Python 3.6 or later
 
 
+---------------------------------------------------------------------------------
 Required Python libraries:
 
 ->requests
 
 ->beautifulsoup4
 
+---------------------------------------------------------------------------------
 
 Installation
 
@@ -50,6 +52,7 @@ Installation
 ->pip install -r requirements.txt
 
 
+---------------------------------------------------------------------------------
 Usage
 
 1.Run the script:
@@ -62,6 +65,7 @@ Usage
 
 3.The script will fetch and display a list of movie titles matching the selected genre.
 
+---------------------------------------------------------------------------------
 
 Code Explanation
 
@@ -74,6 +78,7 @@ Code Explanation
 4.Error Handling: Handles invalid inputs and HTTP errors gracefully, ensuring user-friendly behavior.
 
 
+---------------------------------------------------------------------------------
 Example Output
 
 Enter the emotion: Comedy
@@ -83,6 +88,7 @@ Superbad
 Step Brothers
 ... (more titles)
 
+---------------------------------------------------------------------------------
 
 File Structure
 
@@ -91,10 +97,12 @@ File Structure
 2.requirements.txt: List of required Python libraries.
 
 
+---------------------------------------------------------------------------------
 Contributing
 
 Contributions are welcome! If you'd like to add more features or improve the script, feel free to submit a pull request.
 
+---------------------------------------------------------------------------------
 
 License
 
